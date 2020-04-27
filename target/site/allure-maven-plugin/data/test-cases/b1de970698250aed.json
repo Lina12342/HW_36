@@ -1,0 +1,117 @@
+{
+  "uid" : "b1de970698250aed",
+  "name" : "test",
+  "fullName" : "core.PrimeNumberCheckerTest.test",
+  "historyId" : "8f33a4df071f65ad4e97addfd936cb0a",
+  "time" : {
+    "start" : 1587991094386,
+    "stop" : 1587991094388,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HW_36"
+  }, {
+    "name" : "suite",
+    "value" : "Prime Number Checker with Allure Report"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook.local"
+  }, {
+    "name" : "thread",
+    "value" : "35591@Alenas-MacBook.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TC-01.05 (6 is not prime number)"
+  }, {
+    "name" : "arg1",
+    "value" : "6"
+  }, {
+    "name" : "arg2",
+    "value" : "false"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d20fd8cdcbc3d5b",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <false>\n     but: was <true>",
+      "time" : {
+        "start" : 1587990991178,
+        "stop" : 1587990991259,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "36badaf0cef50d8c",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <false>\n     but: was <true>",
+      "time" : {
+        "start" : 1587990904010,
+        "stop" : 1587990904014,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ac4d6ea0ef8ce30",
+        "status" : "failed",
+        "statusDetails" : "\nExpected: <false>\n     but: was <true>",
+        "time" : {
+          "start" : 1587990991178,
+          "stop" : 1587990991259,
+          "duration" : 81
+        }
+      }, {
+        "uid" : "4e8dfc462811b656",
+        "status" : "failed",
+        "statusDetails" : "\nExpected: <false>\n     but: was <true>",
+        "time" : {
+          "start" : 1587990904010,
+          "stop" : 1587990904014,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b1de970698250aed.json",
+  "parameterValues" : [ "TC-01.05 (6 is not prime number)", "6", "false" ]
+}

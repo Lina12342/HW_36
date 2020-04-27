@@ -1,0 +1,19 @@
+[ {
+  "values" : [ "QA" ],
+  "name" : "environment"
+}, {
+  "values" : [ "Alena Makarova" ],
+  "name" : "QE"
+}, {
+  "values" : [ "macOS 10.15" ],
+  "name" : "os"
+}, {
+  "values" : [ "Firefox 67.0" ],
+  "name" : "browser"
+}, {
+  "values" : [ "1.47.2" ],
+  "name" : "version"
+}, {
+  "values" : [ "http://alena.com" ],
+  "name" : "url"
+} ]

@@ -1,0 +1,114 @@
+{
+  "uid" : "8a3ed4b4b7a7199a",
+  "name" : "test",
+  "fullName" : "core.PrimeNumberCheckerTest.test",
+  "historyId" : "d9a412068ffd9412e57b07ddc635503a",
+  "time" : {
+    "start" : 1587990992206,
+    "stop" : 1587990992212,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "\nExpected: <true>\n     but: was <false>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <true>\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat core.PrimeNumberCheckerTest.test(PrimeNumberCheckerTest.java:28)\n\tat sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)\n\tat org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:71)\n\tat org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:13)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HW_36"
+  }, {
+    "name" : "suite",
+    "value" : "Prime Number Checker with Allure Report"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook.local"
+  }, {
+    "name" : "thread",
+    "value" : "35520@Alenas-MacBook.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TC-01.88 (89 is prime number)"
+  }, {
+    "name" : "arg1",
+    "value" : "89"
+  }, {
+    "name" : "arg2",
+    "value" : "true"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e52e4565f4b9bba2",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <true>\n     but: was <false>",
+      "time" : {
+        "start" : 1587990905434,
+        "stop" : 1587990905437,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9a74290cb53707e8",
+        "status" : "failed",
+        "statusDetails" : "\nExpected: <true>\n     but: was <false>",
+        "time" : {
+          "start" : 1587990992206,
+          "stop" : 1587990992212,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "fe2720f9d680f004",
+        "status" : "failed",
+        "statusDetails" : "\nExpected: <true>\n     but: was <false>",
+        "time" : {
+          "start" : 1587990905434,
+          "stop" : 1587990905437,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8a3ed4b4b7a7199a.json",
+  "parameterValues" : [ "TC-01.88 (89 is prime number)", "89", "true" ]
+}
